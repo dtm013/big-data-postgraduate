@@ -1,0 +1,38 @@
+{
+  "fuente": "desempeno_municipal",
+  "entidad": "DNP",
+  "url": "https://www.datos.gov.co/api/views/665j-iwk5/rows.csv?accessType=DOWNLOAD",
+  "archivo_original": "Medici_n_del_Desempe_o_Municipal_por_Municipio_-_DEPARTAMENTO_DE_BOYAC_.csv",
+  "sha256_original": "f9862fed299b055821fcd4b69fa05ec5469bd35e51464da8dbb0d5979cf8a602",
+  "archivo_bronze": "data_lake/bronze/desempeno_municipal/desempeno_municipal.csv",
+  "sha256_bronze": "f9862fed299b055821fcd4b69fa05ec5469bd35e51464da8dbb0d5979cf8a602",
+  "tamano_bytes": 21541,
+  "codificacion": "utf-8",
+  "filas": 246,
+  "columnas": 15,
+  "esquema_observado": [
+    "Código DANE",
+    "Municipio",
+    "Grupo",
+    "Movilización de recursos",
+    "Ejecución de recursos",
+    "Gobierno abierto",
+    "Ordenamiento erritorial",
+    "Gestión 2020",
+    "Educación",
+    "Salud",
+    "Servicios públicos",
+    "Seguridad y convivencia",
+    "Resultados 2020",
+    "Ajuste por resultados",
+    "MDM 2020"
+  ],
+  "filas_duplicadas_exactas": 0,
+  "celdas_vacias": 0,
+  "crs": null,
+  "pasos_conversion": [
+    "copia sin modificar"
+  ],
+  "fecha_ingesta_utc": "2026-11-07T02:53:37+00:00",
+  "fecha_descarga": "COMPLETAR (fecha en que se descargó del portal)"
+}

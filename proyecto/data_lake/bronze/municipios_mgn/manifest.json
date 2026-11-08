@@ -1,0 +1,27 @@
+{
+  "fuente": "municipios_mgn",
+  "entidad": "DANE - MGN 2025 (simplificado 75 m por el curso)",
+  "url": "https://geoportal.dane.gov.co/descargas/mgn_2025/MGN2025_MPIO_GRAFICO.zip",
+  "archivo_original": "municipios_boyaca_mgn_2025.geojson",
+  "sha256_original": "ee6c4512deb8cfe18815b8ec276eadbb07e2c9ab864e549199c08ee9b457ca4d",
+  "archivo_bronze": "data_lake/bronze/municipios_mgn/municipios_mgn.csv",
+  "sha256_bronze": "36a58909771b4a0b8551e8a7e2a72d886531dd1afa77ffd10e603fdae0ff5c1e",
+  "tamano_bytes": 297007,
+  "codificacion": "utf-8",
+  "filas": 123,
+  "columnas": 4,
+  "esquema_observado": [
+    "codigo_municipio",
+    "municipio_mgn",
+    "area_km2",
+    "geometry_wkt"
+  ],
+  "filas_duplicadas_exactas": 0,
+  "celdas_vacias": 0,
+  "crs": "EPSG:4326",
+  "pasos_conversion": [
+    "GeoJSON -> CSV con geometría en WKT (columna geometry_wkt)"
+  ],
+  "fecha_ingesta_utc": "2026-11-07T02:53:39+00:00",
+  "fecha_descarga": "COMPLETAR (fecha en que se descargó del portal)"
+}

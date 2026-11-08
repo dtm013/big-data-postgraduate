@@ -1,0 +1,38 @@
+{
+  "fuente": "capacidad_uso_igac",
+  "entidad": "IGAC - Capacidad de uso de las tierras 1:100.000 (2004)",
+  "url": "https://mapas.igac.gov.co/server/rest/services/agrologia/mapageneraldecapacidaddeusodelastierrasdepartamentodeboyaca/MapServer",
+  "archivo_original": "capacidad_uso_tierras_boyaca.geojson",
+  "sha256_original": "b96555b22702bd61c6df3a8925fb25c52c2cf1d7428e10da5583601e98c35618",
+  "archivo_bronze": "data_lake/bronze/capacidad_uso_igac/capacidad_uso_igac.csv",
+  "sha256_bronze": "d3820c89d1aa6146fa0d14591f5bb6a11c6a48704416345def8a7ef8badd8323",
+  "tamano_bytes": 17801732,
+  "codificacion": "utf-8",
+  "filas": 958,
+  "columnas": 15,
+  "esquema_observado": [
+    "OBJECTID",
+    "UCS_CP",
+    "CLASE",
+    "SUBCLASE",
+    "GRUPO_MANEJO",
+    "UCS",
+    "PRINCIPALES_CARACTERÍSTICAS",
+    "PRINCIPALES_LIMITANTES",
+    "USO_ACTUAL",
+    "USOS_RECOMENDADOS",
+    "PRACTICAS_MANEJO",
+    "ÁREA_HA_1",
+    "Shape_Length",
+    "Shape_Area",
+    "geometry_wkt"
+  ],
+  "filas_duplicadas_exactas": 0,
+  "celdas_vacias": 242,
+  "crs": "EPSG:4326",
+  "pasos_conversion": [
+    "GeoJSON -> CSV con geometría en WKT (columna geometry_wkt)"
+  ],
+  "fecha_ingesta_utc": "2026-11-07T02:53:43+00:00",
+  "fecha_descarga": "COMPLETAR (fecha en que se descargó del portal)"
+}

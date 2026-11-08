@@ -1,0 +1,33 @@
+{
+  "fuente": "poblacion_dane",
+  "entidad": "DANE (recorte del curso desde PPED-AreaSexoEdadMun-2018-2042_VP.xlsx)",
+  "url": "https://www.dane.gov.co/files/censo2018/proyecciones-de-poblacion/Municipal/PPED-AreaSexoEdadMun-2018-2042_VP.xlsx",
+  "archivo_original": "poblacion_boyaca_dane_2020_2025.csv",
+  "sha256_original": "0bce7a424bc2dc16dd6faae26e4c5f4157228f4ad10f97bca066c5ea23c13a48",
+  "archivo_bronze": "data_lake/bronze/poblacion_dane/poblacion_dane.csv",
+  "sha256_bronze": "0bce7a424bc2dc16dd6faae26e4c5f4157228f4ad10f97bca066c5ea23c13a48",
+  "tamano_bytes": 40168,
+  "codificacion": "utf-8",
+  "filas": 738,
+  "columnas": 10,
+  "esquema_observado": [
+    "codigo_municipio",
+    "municipio",
+    "anio",
+    "poblacion_total",
+    "hombres",
+    "mujeres",
+    "pob_18_44",
+    "pob_18_64",
+    "hombres_18_44",
+    "mujeres_18_44"
+  ],
+  "filas_duplicadas_exactas": 0,
+  "celdas_vacias": 0,
+  "crs": null,
+  "pasos_conversion": [
+    "copia sin modificar"
+  ],
+  "fecha_ingesta_utc": "2026-11-07T02:53:37+00:00",
+  "fecha_descarga": "COMPLETAR (fecha en que se descargó del portal)"
+}

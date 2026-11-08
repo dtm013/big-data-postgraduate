@@ -1,0 +1,43 @@
+{
+  "fuente": "evaluaciones_agropecuarias",
+  "entidad": "UPRA / MADR",
+  "url": "https://www.datos.gov.co/api/views/sn28-aa8q/rows.csv?accessType=DOWNLOAD",
+  "archivo_original": "EVALUACIONES_AGROPECUARIAS_MUNICIPALES_-_DEPARTAMENTO_DE_BOYAC_.csv",
+  "sha256_original": "f0b46269984bbf88760b5f90b2a59233ca387d8506fe5ad8ac9216dbb1e0eb7f",
+  "archivo_bronze": "data_lake/bronze/evaluaciones_agropecuarias/evaluaciones_agropecuarias.csv",
+  "sha256_bronze": "f0b46269984bbf88760b5f90b2a59233ca387d8506fe5ad8ac9216dbb1e0eb7f",
+  "tamano_bytes": 441342,
+  "codificacion": "utf-8",
+  "filas": 2613,
+  "columnas": 20,
+  "esquema_observado": [
+    "Ciclo del cultivo",
+    "Municipio",
+    "Cultivo",
+    "Periodo",
+    "Área sembrada (ha)",
+    "Área cosechada (ha)",
+    "Producción (t)",
+    "Rendimiento (t/ha)",
+    "Código Dane departamento",
+    "Departamento",
+    "Código Dane municipio",
+    "Provincia",
+    "Desagregación cultivo",
+    "Cultivo2",
+    "Grupo cultivo",
+    "Subgrupo",
+    "Periodo2",
+    "Nombre científico del cultivo",
+    "Código del cultivo",
+    "Estado físico del cultivo"
+  ],
+  "filas_duplicadas_exactas": 0,
+  "celdas_vacias": 0,
+  "crs": null,
+  "pasos_conversion": [
+    "copia sin modificar"
+  ],
+  "fecha_ingesta_utc": "2026-11-07T02:53:36+00:00",
+  "fecha_descarga": "COMPLETAR (fecha en que se descargó del portal)"
+}
