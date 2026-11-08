@@ -1,0 +1,11 @@
+columna,tipo,nulos,pct_nulos,valores_unicos
+codigo_municipio,String,0,0.0,123
+municipio,String,0,0.0,123
+anio,Int16,0,0.0,6
+poblacion_total,Int64,0,0.0,693
+hombres,Int64,0,0.0,663
+mujeres,Int64,0,0.0,676
+pob_18_44,Int64,0,0.0,651
+pob_18_64,Int64,0,0.0,693
+hombres_18_44,Int64,0,0.0,577
+mujeres_18_44,Int64,0,0.0,590

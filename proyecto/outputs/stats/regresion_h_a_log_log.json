@@ -1,0 +1,21 @@
+{
+  "formula": "log_produccion ~ log_pob_18_64",
+  "n": 123,
+  "r2": 0.18009448736299072,
+  "r2_ajustado": 0.173318408746156,
+  "breusch_pagan_p": 0.2506558103702349,
+  "errores": "clasicos",
+  "shapiro_residuos_p": 0.17326314381803448,
+  "influyentes_cook": [
+    11,
+    19,
+    31,
+    66,
+    73,
+    82,
+    92,
+    97
+  ],
+  "umbral_cook": 0.032520325203252036,
+  "vif": {}
+}

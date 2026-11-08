@@ -1,0 +1,7 @@
+columna,tipo,nulos,pct_nulos,valores_unicos
+codigo_municipio,String,0,0.0,123
+anio,Int16,0,0.0,5
+area,String,0,0.0,2
+sexo,String,0,0.0,2
+edad,Int16,0,0.0,86
+personas,Int64,0,0.0,1291

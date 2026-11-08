@@ -1,0 +1,16 @@
+columna,tipo,nulos,pct_nulos,valores_unicos
+Código DANE,String,0,0.0,123
+Municipio,String,0,0.0,126
+Grupo,String,0,0.0,5
+Movilización de recursos,String,0,0.0,239
+Ejecución de recursos,String,0,0.0,238
+Gobierno abierto,String,0,0.0,60
+Ordenamiento erritorial,String,0,0.0,234
+Gestión 2020,String,0,0.0,235
+Educación,String,0,0.0,239
+Salud,String,0,0.0,233
+Servicios públicos,String,0,0.0,238
+Seguridad y convivencia,String,0,0.0,223
+Resultados 2020,String,0,0.0,224
+Ajuste por resultados,String,0,0.0,11
+MDM 2020,String,0,0.0,232

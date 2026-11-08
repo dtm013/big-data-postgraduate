@@ -1,0 +1,4 @@
+columna,tipo,nulos,pct_nulos,valores_unicos
+codigo_municipio,String,0,0.0,123
+municipio_mgn,String,0,0.0,123
+area_km2,String,0,0.0,123

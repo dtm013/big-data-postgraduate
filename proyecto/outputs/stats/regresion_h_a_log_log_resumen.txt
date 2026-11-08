@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         log_produccion   R-squared:                       0.180
+Model:                            OLS   Adj. R-squared:                  0.173
+Method:                 Least Squares   F-statistic:                     26.58
+Date:                Wed, 04 Nov 2026   Prob (F-statistic):           1.00e-06
+Time:                        23:44:26   Log-Likelihood:                -217.29
+No. Observations:                 123   AIC:                             438.6
+Df Residuals:                     121   BIC:                             444.2
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+Intercept         3.3815      1.104      3.064      0.003       1.196       5.567
+log_pob_18_64     0.7047      0.137      5.155      0.000       0.434       0.975
+==============================================================================
+Omnibus:                        2.628   Durbin-Watson:                   1.893
+Prob(Omnibus):                  0.269   Jarque-Bera (JB):                2.087
+Skew:                           0.239   Prob(JB):                        0.352
+Kurtosis:                       3.423   Cond. No.                         70.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

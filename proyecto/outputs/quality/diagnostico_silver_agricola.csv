@@ -1,0 +1,16 @@
+columna,tipo,nulos,pct_nulos,valores_unicos
+codigo_municipio,String,0,0.0,123
+anio,Int16,0,0.0,1
+periodo,String,0,0.0,3
+ciclo,String,0,0.0,2
+cultivo,String,0,0.0,96
+codigo_cultivo,String,0,0.0,110
+desagregacion_cultivo,String,0,0.0,110
+grupo_cultivo,String,0,0.0,8
+estado_fisico,String,0,0.0,6
+area_sembrada_ha,Float64,0,0.0,435
+area_cosechada_ha,Float64,0,0.0,439
+produccion_t,Float64,0,0.0,1141
+rendimiento_fuente_t_ha,Float64,0,0.0,268
+alerta_cosechada_mayor,Boolean,0,0.0,2
+alerta_produccion_sin_area,Boolean,0,0.0,1

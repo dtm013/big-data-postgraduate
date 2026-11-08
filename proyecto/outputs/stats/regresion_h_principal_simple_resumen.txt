@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            puntaje_mdm   R-squared:                       0.063
+Model:                            OLS   Adj. R-squared:                  0.056
+Method:                 Least Squares   F-statistic:                     8.196
+Date:                Wed, 04 Nov 2026   Prob (F-statistic):            0.00495
+Time:                        23:44:09   Log-Likelihood:                -424.50
+No. Observations:                 123   AIC:                             853.0
+Df Residuals:                     121   BIC:                             858.6
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==================================================================================
+                     coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------
+Intercept         37.0848      6.275      5.910      0.000      24.662      49.508
+prop_18_44_pct     0.5224      0.182      2.863      0.005       0.161       0.884
+==============================================================================
+Omnibus:                        4.316   Durbin-Watson:                   2.403
+Prob(Omnibus):                  0.116   Jarque-Bera (JB):                3.944
+Skew:                          -0.366   Prob(JB):                        0.139
+Kurtosis:                       2.516   Cond. No.                         311.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

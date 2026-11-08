@@ -1,0 +1,17 @@
+{
+  "formula": "rendimiento_papa_t_ha ~ pct_clases_iii_iv",
+  "n": 92,
+  "r2": 0.13814156983661752,
+  "r2_ajustado": 0.12856536505702443,
+  "breusch_pagan_p": 0.7647254374267406,
+  "errores": "clasicos",
+  "shapiro_residuos_p": 0.288683251604153,
+  "influyentes_cook": [
+    57,
+    61,
+    72,
+    110
+  ],
+  "umbral_cook": 0.043478260869565216,
+  "vif": {}
+}

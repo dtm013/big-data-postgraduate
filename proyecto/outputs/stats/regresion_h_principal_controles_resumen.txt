@@ -1,0 +1,33 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            puntaje_mdm   R-squared:                       0.160
+Model:                            OLS   Adj. R-squared:                  0.108
+Method:                 Least Squares   F-statistic:                     3.119
+Date:                Wed, 04 Nov 2026   Prob (F-statistic):            0.00473
+Time:                        23:44:09   Log-Likelihood:                -417.84
+No. Observations:                 123   AIC:                             851.7
+Df Residuals:                     115   BIC:                             874.2
+Df Model:                           7                                         
+Covariance Type:            nonrobust                                         
+============================================================================================
+                               coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------
+Intercept                   37.0059     10.580      3.498      0.001      16.049      57.963
+C(grupo_capacidad)[T.G2]    -4.5910      2.074     -2.213      0.029      -8.700      -0.482
+C(grupo_capacidad)[T.G3]    -4.6890      2.170     -2.161      0.033      -8.988      -0.390
+C(grupo_capacidad)[T.G4]    -6.9259      2.350     -2.948      0.004     -11.580      -2.272
+C(grupo_capacidad)[T.G5]   -18.1429      7.753     -2.340      0.021     -33.499      -2.786
+prop_18_44_pct               0.2811      0.225      1.250      0.214      -0.164       0.726
+log_poblacion                0.9228      1.011      0.913      0.363      -1.080       2.925
+pct_rural                    0.0712      0.045      1.577      0.117      -0.018       0.161
+==============================================================================
+Omnibus:                        2.452   Durbin-Watson:                   2.426
+Prob(Omnibus):                  0.293   Jarque-Bera (JB):                2.378
+Skew:                          -0.275   Prob(JB):                        0.304
+Kurtosis:                       2.598   Cond. No.                     1.21e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.21e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.

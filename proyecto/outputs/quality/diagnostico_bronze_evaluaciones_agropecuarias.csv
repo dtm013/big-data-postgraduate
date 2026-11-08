@@ -1,0 +1,21 @@
+columna,tipo,nulos,pct_nulos,valores_unicos
+Ciclo del cultivo,String,0,0.0,2
+Municipio,String,0,0.0,123
+Cultivo,String,0,0.0,96
+Periodo,String,0,0.0,3
+Área sembrada (ha),String,0,0.0,435
+Área cosechada (ha),String,0,0.0,439
+Producción (t),String,0,0.0,1141
+Rendimiento (t/ha),String,0,0.0,268
+Código Dane departamento,String,0,0.0,1
+Departamento,String,0,0.0,1
+Código Dane municipio,String,0,0.0,123
+Provincia,String,0,0.0,15
+Desagregación cultivo,String,0,0.0,110
+Cultivo2,String,0,0.0,96
+Grupo cultivo,String,0,0.0,8
+Subgrupo,String,0,0.0,22
+Periodo2,String,0,0.0,3
+Nombre científico del cultivo,String,0,0.0,95
+Código del cultivo,String,0,0.0,110
+Estado físico del cultivo,String,0,0.0,6

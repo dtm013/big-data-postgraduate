@@ -1,0 +1,15 @@
+columna,tipo,nulos,pct_nulos,valores_unicos
+objectid,String,0,0.0,958
+ucs_cp,String,0,0.0,31
+clase,String,0,0.0,8
+subclase,String,121,12.63,9
+grupo_manejo,String,121,12.63,7
+ucs,String,0,0.0,30
+principales_caracteristicas,String,0,0.0,30
+principales_limitantes,String,0,0.0,30
+uso_actual,String,0,0.0,31
+usos_recomendados,String,0,0.0,31
+practicas_manejo,String,0,0.0,31
+area_ha_1,String,0,0.0,958
+shape_length,String,0,0.0,958
+shape_area,String,0,0.0,958

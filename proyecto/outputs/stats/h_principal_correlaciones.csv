@@ -1,0 +1,7 @@
+analisis,x,y,metodo,n,r,p,ic95_inf,ic95_sup,alternativa,nota,conclusion
+principal,prop_18_44_pct,puntaje_mdm,pearson,123,0.25187434584177765,0.0024743252873666594,0.0783328917826371,0.4105998783822312,greater,,Hay evidencia de asociación positiva
+principal,prop_18_44_pct,puntaje_mdm,spearman,123,0.240690312329413,0.0036627608452408957,0.06392724961987051,0.4028102361096846,greater,,Hay evidencia de asociación positiva
+sensibilidad_sin_influyentes,prop_18_44_pct,puntaje_mdm,pearson,119,0.2699641330445231,0.0014928234141051593,0.0945636545577898,0.4291083035179814,greater,,Hay evidencia de asociación positiva
+sensibilidad_sin_influyentes,prop_18_44_pct,puntaje_mdm,spearman,119,0.24695507886398688,0.0033886106474806396,0.06733366412242453,0.411071016414762,greater,,Hay evidencia de asociación positiva
+sensibilidad_bloque_alterno_mdm,prop_18_44_pct,puntaje_mdm_alt,spearman,123,0.2416819160198848,0.0035399880416953785,0.06495472304280188,0.40370953305597934,greater,,Hay evidencia de asociación positiva
+sensibilidad_poblacion_fuente_alterna,prop_18_44_alt_pct,puntaje_mdm,spearman,123,0.2339187509520331,0.0046067610186576475,0.0569190489424893,0.396662070404699,greater,,Hay evidencia de asociación positiva

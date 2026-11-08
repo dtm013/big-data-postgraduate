@@ -1,0 +1,26 @@
+{
+  "formula": "puntaje_mdm ~ prop_18_44_pct + log_poblacion + pct_rural + C(grupo_capacidad)",
+  "n": 123,
+  "r2": 0.1595803227347128,
+  "r2_ajustado": 0.10842434237943432,
+  "breusch_pagan_p": 0.1877933685999414,
+  "errores": "clasicos",
+  "shapiro_residuos_p": 0.35460076635997784,
+  "influyentes_cook": [
+    22,
+    23,
+    40,
+    48,
+    102
+  ],
+  "umbral_cook": 0.032520325203252036,
+  "vif": {
+    "C(grupo_capacidad)[T.G2]": 1.9603323144596614,
+    "C(grupo_capacidad)[T.G3]": 2.0731367373964464,
+    "C(grupo_capacidad)[T.G4]": 2.025322555144327,
+    "C(grupo_capacidad)[T.G5]": 1.0665437478982538,
+    "prop_18_44_pct": 1.6082551949714354,
+    "log_poblacion": 1.8074608791247417,
+    "pct_rural": 1.5804093246059738
+  }
+}

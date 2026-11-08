@@ -1,0 +1,12 @@
+analisis,x,y,metodo,n,r,p,ic95_inf,ic95_sup,alternativa,nota,conclusion,p_holm,tipo
+principal,prop_18_44_pct,puntaje_mdm,pearson,123,0.25187434584177765,0.0024743252873666594,0.0783328917826371,0.4105998783822312,greater,,Hay evidencia de asociación positiva,,principal
+principal,prop_18_44_pct,puntaje_mdm,spearman,123,0.240690312329413,0.0036627608452408957,0.06392724961987051,0.4028102361096846,greater,,Hay evidencia de asociación positiva,,principal
+sensibilidad_sin_influyentes,prop_18_44_pct,puntaje_mdm,pearson,119,0.2699641330445231,0.0014928234141051593,0.0945636545577898,0.4291083035179814,greater,,Hay evidencia de asociación positiva,,principal
+sensibilidad_sin_influyentes,prop_18_44_pct,puntaje_mdm,spearman,119,0.24695507886398688,0.0033886106474806396,0.06733366412242453,0.411071016414762,greater,,Hay evidencia de asociación positiva,,principal
+sensibilidad_bloque_alterno_mdm,prop_18_44_pct,puntaje_mdm_alt,spearman,123,0.2416819160198848,0.0035399880416953785,0.06495472304280188,0.40370953305597934,greater,,Hay evidencia de asociación positiva,,principal
+sensibilidad_poblacion_fuente_alterna,prop_18_44_alt_pct,puntaje_mdm,spearman,123,0.2339187509520331,0.0046067610186576475,0.0569190489424893,0.396662070404699,greater,,Hay evidencia de asociación positiva,,principal
+A_produccion_vs_pob_18_64,pob_18_64,produccion_total_t,spearman,123,0.5024248365170062,3.1958859387536745e-09,0.3475630820728981,0.6306048514536926,two-sided,,Hay evidencia de asociación,1.5979429693768372e-08,exploratoria
+A_log_produccion_vs_log_pob,log_pob_18_64,log_produccion,pearson,123,0.4243754085276277,9.995092288621029e-07,0.2674330422216213,0.5593837992382347,two-sided,,Hay evidencia de asociación,3.9980369154484115e-06,exploratoria
+B_suelo_iii_iv_vs_rendimiento_papa,pct_clases_iii_iv,rendimiento_papa_t_ha,spearman,92,0.40857523193725825,5.270870492279573e-05,0.21427458615475678,0.5717723767047643,two-sided,,Hay evidencia de asociación,0.0001581261147683872,exploratoria
+D_mujeres_18_44_vs_mdm,prop_mujeres_18_44_pct,puntaje_mdm,spearman,123,0.3270631899744119,0.00022218823994797594,0.15464350801392335,0.48014905080735704,two-sided,,Hay evidencia de asociación,0.0004443764798959519,exploratoria
+D_hombres_18_44_vs_mdm,prop_hombres_18_44_pct,puntaje_mdm,spearman,123,0.17060142752049423,0.059214459945578786,-0.007930346694083051,0.3385931275054529,two-sided,,No se rechaza H0,0.059214459945578786,exploratoria
