@@ -1,36 +1,12 @@
-.DS_Store
-__pycache__/
-*.py[cod]
 .venv/
-.venv-gpu/
-venv/
-.env
-.env.*
-!.env.example
-material_practico/datos/
+__pycache__/
 .ipynb_checkpoints/
-*.log
-*.aux
-*.toc
-*.out
-*.synctex.gz
-~$*.docx
-
-# Fuentes descargadas y resultados reproducibles
-kit/data/raw/
-kit/salidas/
-*.part
-*.nueva
-historico/pedidos/material_practico/datos/
-
-# Datos y configuración de trabajo del anexo Supersalud
-supersalud/raw/
-supersalud/data/
-supersalud/salidas/
-supersalud/parquet_output/
-supersalud/Reclamos*
-supersalud/config.json
-
-# Descargas completas PQRS y entregas de estudiantes
-kit/data/pqrs_completos/
-kit/entregas/
+.pytest_cache/
+# bronze, silver, gold, rechazos, fixtures y salidas se regeneran con ./run_pipeline.sh
+data_lake/bronze/*
+data_lake/silver/*
+data_lake/gold/*
+data_lake/rejects/*
+tests/fixtures/*
+outputs/**/*
+!**/.gitkeep
